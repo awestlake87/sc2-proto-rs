@@ -1,7 +1,13 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+
+extern crate protobuf;
+
+pub mod common;
+pub mod data;
+pub mod debug;
+pub mod error;
+pub mod query;
+pub mod raw;
+pub mod sc2api;
+pub mod score;
+pub mod spatial;
+pub mod ui;
