@@ -36,6 +36,10 @@ after_success:
   - |
       travis-cargo --only stable publish -- --token $CARGO_TOKEN ||
       { echo "publish failed!"; exit 1; }
+  - |
+      export VERSION=`cargo pkgid | sed -E 's/.*#(.*:)?(.+)/\2/'` &&
+      git tag v$VERSION &&
+      git push https://awestlake87:$GITHUB_TOKEN@github.com/awestlake87/sc2-proto-rs v$VERSION
 
 deploy:
   - provider: pages
