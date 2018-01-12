@@ -1,4 +1,4 @@
-cargo publish -- --token $CARGO_TOKEN || exit 1
+cargo publish --token $CARGO_TOKEN || exit 1
 
 VERSION=`cargo pkgid | sed -E 's/.*#(.*:)?(.+)/\2/'`
 git tag v$VERSION || exit 2

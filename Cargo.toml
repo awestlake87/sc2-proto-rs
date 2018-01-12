@@ -4,7 +4,6 @@ version = "0.1.4"
 authors = ["Andrew J Westlake <kelixes@gmail.com>"]
 description = "protocol buffers for the StarCraft II Client API"
 license = "MIT"
-license-file = "LICENSE.md"
 documentation = "https://docs.rs/sc2-proto-rs"
 homepage = "https://github.com/awestlake87/sc2-proto-rs"
 repository = "https://github.com/awestlake87/sc2-proto-rs"
