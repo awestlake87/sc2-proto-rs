@@ -38,7 +38,7 @@ after_success:
 deploy:
   - provider: pages
     skip_cleanup: true
-    github_token: $GH_TOKEN # Set in travis-ci.org dashboard
+    github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
     on:
       branch: master
       condition: -d ./target/doc
