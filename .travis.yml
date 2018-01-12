@@ -33,9 +33,10 @@ script:
 
 deploy:
   - provider: script
+    skip_cleanup: true
     on:
       branch: master
-      condition: -d ./target/doc
+      condition: -d ./target/doc # check that we're on stable
     script: scripts/deploy.sh
 
   - provider: pages
