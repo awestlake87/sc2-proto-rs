@@ -1,6 +1,6 @@
 language: rust
 rust:
-  - nightly
+  - stable
 
 cache: cargo
 
@@ -18,14 +18,12 @@ jobs:
   include:
     - stage: test
       script:
-        - rustup default nightly-2018-04-11 # temporary hack to get it working
         - rustc --version
         - cargo --version
         - cargo test --all --verbose
 
     - stage: doc
       script:
-        - rustup default nightly-2018-04-11 # temporary hack to get it working
         - rustc --version
         - cargo --version
         - cargo doc --no-deps
@@ -37,7 +35,6 @@ jobs:
       
     - stage: deploy
       script:
-        - rustup default nightly-2018-04-11 # temporary hack to get it working
         - rustc --version
         - cargo --version
 
