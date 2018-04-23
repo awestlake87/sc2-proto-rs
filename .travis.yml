@@ -4,6 +4,9 @@ rust:
 
 cache: cargo
 
+before_install:
+  - git submodule update --init --recursive
+
 stages:
   - test
   
