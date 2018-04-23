@@ -1,3 +1,14 @@
 /target/
 **/*.rs.bk
 Cargo.lock
+
+src/common.rs
+src/data.rs
+src/debug.rs
+src/error.rs
+src/query.rs
+src/raw.rs
+src/sc2api.rs
+src/score.rs
+src/spatial.rs
+src/ui.rs
