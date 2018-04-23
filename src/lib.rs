@@ -1,4 +1,3 @@
-
 extern crate protobuf;
 
 pub mod common;

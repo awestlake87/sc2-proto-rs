@@ -7,6 +7,10 @@ license = "MIT"
 documentation = "https://docs.rs/sc2-proto"
 homepage = "https://github.com/awestlake87/sc2-proto-rs"
 repository = "https://github.com/awestlake87/sc2-proto-rs"
+build = "build.rs"
+
+[build-dependencies]
+protoc-rust = "1.5"
 
 [dependencies]
 protobuf = "^1.4"
