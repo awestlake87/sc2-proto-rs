@@ -3,6 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Documentation](https://docs.rs/sc2-proto/badge.svg)](https://docs.rs/crate/sc2-proto)
 
-[Documentation (master)](https://awestlake87.github.io/sc2-proto-rs/sc2-proto/)
+[Documentation (master)](https://awestlake87.github.io/sc2-proto-rs/sc2_proto/)
 
 Protocol buffers for the StarCraft II Client API
