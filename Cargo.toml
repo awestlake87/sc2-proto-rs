@@ -1,6 +1,6 @@
 [package]
 name = "sc2-proto"
-version = "0.2.0-alpha.0"
+version = "0.2.1"
 authors = ["Andrew J Westlake <kelixes@gmail.com>"]
 description = "protocol buffers for the StarCraft II Client API"
 license = "MIT"
@@ -10,7 +10,7 @@ repository = "https://github.com/awestlake87/sc2-proto-rs"
 build = "build.rs"
 
 [build-dependencies]
-protoc-rust = "1.5"
+protoc-rust = "2.3"
 
 [dependencies]
-protobuf = "^1.4"
+protobuf = "2.3"
