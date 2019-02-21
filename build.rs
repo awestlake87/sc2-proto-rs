@@ -16,6 +16,9 @@ fn main() {
             "s2client-proto/s2clientprotocol/spatial.proto",
             "s2client-proto/s2clientprotocol/ui.proto",
         ],
+        customize: protoc_rust::Customize {
+            ..Default::default()
+        },
     }) {
         panic!("{:#?}", e);
     } else {
