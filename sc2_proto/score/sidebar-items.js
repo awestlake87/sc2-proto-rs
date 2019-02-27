@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Score_ScoreType",""]],"fn":[["file_descriptor_proto",""]],"struct":[["CategoryScoreDetails",""],["Score",""],["ScoreDetails",""],["VitalScoreDetails",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["AbilityData_Target",""],["Attribute",""],["Weapon_TargetType",""]],"fn":[["file_descriptor_proto",""]],"struct":[["AbilityData",""],["BuffData",""],["DamageBonus",""],["EffectData",""],["UnitTypeData",""],["UpgradeData",""],["Weapon",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["RequestQueryPathing_oneof_start",""]],"fn":[["file_descriptor_proto",""]],"struct":[["RequestQuery",""],["RequestQueryAvailableAbilities",""],["RequestQueryBuildingPlacement",""],["RequestQueryPathing",""],["ResponseQuery",""],["ResponseQueryAvailableAbilities",""],["ResponseQueryBuildingPlacement",""],["ResponseQueryPathing",""]]});
