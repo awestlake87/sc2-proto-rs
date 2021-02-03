@@ -1,7 +1,7 @@
 [package]
 name = "sc2-proto"
-version = "0.2.1"
-description = "protocol buffers for the StarCraft II Client API"
+version = "0.2.2"
+description = "Protocol buffers for the StarCraft II Client API"
 authors = ["Andrew J Westlake <kelixes@gmail.com>", "Hannes Karppila <hannes.karppila@gmail.com>"]
 license = "MIT"
 documentation = "https://docs.rs/sc2-proto"
@@ -11,7 +11,7 @@ edition = "2018"
 build = "build.rs"
 
 [build-dependencies]
-protoc-rust = "2.3"
+protoc-rust = "2.20"
 
 [dependencies]
-protobuf = "2.3"
+protobuf = "2.20"
