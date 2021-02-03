@@ -11,7 +11,7 @@ edition = "2018"
 build = "build.rs"
 
 [build-dependencies]
-protoc-rust = "2.20"
+protoc-rust = { version = "2.20", optional = true }
 
 [dependencies]
 protobuf = "2.20"
