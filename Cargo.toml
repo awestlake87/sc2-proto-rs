@@ -1,6 +1,6 @@
 [package]
 name = "sc2-proto"
-version = "0.2.2"
+version = "0.2.3"
 description = "Protocol buffers for the StarCraft II Client API"
 authors = ["Andrew J Westlake <kelixes@gmail.com>", "Hannes Karppila <hannes.karppila@gmail.com>"]
 license = "MIT"
